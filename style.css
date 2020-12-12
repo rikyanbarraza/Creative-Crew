@@ -1,34 +1,220 @@
-body {
-    font-family: "Poppins", sans-serif;
-  }
+/* -----------------------PC----------------------*/
+*{
+box-sizing: border-box;
+}
+/* -----------------------font--------------------*/
+h1{
+padding: 0;
+ margin: 0;
+}
+h2{
+padding: 0;
+margin: 0;
+font-family: 'PT Serif', serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+}
+h3{
+padding: 0;
+margin: 0;
+font-family: PT Serif;
+font-style: lighter;
+font-weight: lighter;
+font-size: 18px;
+line-height: 16px;
+}
+h4{
+padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+}
+h5{
+padding: 0;
+margin: 0;
+font-family: 'PT Serif', serif;
+}
+h6{
+padding: 0;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+}
+/* -----------------------font--------------------*/
+/* -----------------------header------------------*/
+.headerMainContainer{
+display: flex;
+padding: 0px;
+margin-top: 50px;
+}
+.headerTitleContainer{
+display: flex;
+flex: 1;
+padding: 0px;
+margin: 0px;
+}
+.headerTitleOne{
+display: flex;
+padding: 0px;
+margin: 0px;
+}
+.headerTextContainer {
+display: flex;
+flex: 1;
+flex-direction: column;
+}
+.headerTitleTwo{
+padding: 0px;
+margin: 0px;
+}
+.headerParagraph{
+margin: 0px;
+padding: 0px;
+width: 320px
+}
+/* -----------------------header------------------*/
+/* -----------------------body--------------------*/
+body{
+max-width: 1600px;
+margin-left: 200px;
+margin-right: auto;
+position: relative;
+}
+.mainImgConainer{
+margin-top: 70px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+justify-content: center;
+}
+.cardContainer{
+display: flex;
+flex: 1;
+}
+.selfieTextContainer{
+flex-direction: column;
+justify-content: center;
+position: initial;
+}
+img{
+height: 100%;
+width: 100%;
+}
+.downImg{
+margin-top: 200px;
+position: initial;
+}
+.selfieTxt{
+margin-bottom: 10px;
+}
+.selfieVerticalTxt{
+transform-origin: top left;
+transform: rotate(90deg);
+position: relative;
+width: 240px;
+margin-left: 30px;
+text-transform: uppercase;
+}
+/* -----------------------body--------------------*/
+/* -----------------------footer------------------*/
+.footer{
+text-align: center;
+margin-top: 100px;
+margin-right: 200px;
+}
+/* -----------------------footer------------------*/
+/* -----------------------PC----------------------*/
 
-  ul {
-    padding-left: 24px;
-  }
 
-  li {
-    margin-bottom: 8px;
-  }
-
-  .welcome {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .welcome-text {
-    margin-top: 30vh;
-    font-weight: 500;
-  }
-
-  .welcome-text p {
-    font-size: 1rem;
-    font-weight: 400;
-  }
-
-  .welcome-text h1 {
-    font-size: 1.5rem;
-  }
-
-  .welcome-text a {
-    color: #f7542e;
-  }
+/* -----------------------mobile------------------*/
+@media screen and (max-width: 500px){
+    /* -----------------------header------------------*/
+    .headerMainContainer{
+    display: flex;
+    padding: 0px;
+    margin-top: 50px;
+    }
+    .headerTitleContainer{
+    display: flex;
+    flex: 1;
+    padding: 0px;
+    margin: 0px;
+    }
+    .headerTitleOne{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    }
+    .headerTextContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    }
+    .headerTitleTwo{
+    padding: 0px;
+    margin: 0px;
+    }
+    .headerParagraph{
+    margin: 0px;
+    padding: 0px;
+    width: 320px
+    }
+    /* -----------------------header------------------*/
+    /* -----------------------body--------------------*/
+    body{
+    max-width: 1600px;
+    margin-left: 200px;
+    margin-right: auto;
+    position: relative;
+    }
+    .mainImgConainer{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    }
+    .cardContainer{
+    display: flex;
+    flex: 1;
+    }
+    .selfieTextContainer{
+    flex-direction: column;
+    justify-content: center;
+    position: initial;
+    }
+    img{
+    height: 100%;
+    width: 100%;
+    }
+    .downImg{
+    margin-top: 200px;
+    position: initial;
+    }
+    .selfieTxt{
+    margin-bottom: 10px;
+    }
+    .selfieVerticalTxt{
+    transform-origin: top left;
+    transform: rotate(90deg);
+    position: relative;
+    width: 240px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    }
+    /* -----------------------body--------------------*/
+    /* -----------------------footer------------------*/
+    .footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 200px;
+    }
+    /* -----------------------footer------------------*/
+}
+/* -----------------------mobile------------------*/
